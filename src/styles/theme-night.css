@@ -1,0 +1,41 @@
+/* Theme Night - Noir Mat, Bleu Neon, Couleurs Brillantes */
+
+:root[data-theme='night'] {
+  --bg-primary: #0a0e27;
+  --bg-secondary: #1a1f3f;
+  --bg-tertiary: #252d4d;
+  
+  --text-primary: #ffffff;
+  --text-secondary: #b0c4de;
+  --text-tertiary: #8095a8;
+  
+  --accent-primary: #00d9ff;
+  --accent-secondary: #0080ff;
+  --accent-tertiary: #1a3a52;
+  
+  --color-tojo: #ff0055;
+  --color-mendrika: #00d9ff;
+  
+  --border-color: #3a4860;
+  --shadow: 0 2px 16px rgba(0, 217, 255, 0.15);
+  
+  --accent-marron: #d4956b;
+  --accent-marron-light: #ff9d5c;
+  --glow: 0 0 20px rgba(0, 217, 255, 0.3);
+}
+
+/* Appliquer le thème night */
+:root[data-theme='night'] {
+  color-scheme: dark;
+}
+
+/* Transitions fluides */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Glow effect pour night mode */
+:root[data-theme='night'] *:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-primary);
+}

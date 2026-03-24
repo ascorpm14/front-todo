@@ -1,0 +1,16 @@
+je voudrait cree une genre de page de gestion pour gere des taches entre 2 user par exemple l'autre dois faire une tache et moi aussie et chaque tache acomplie est enregistrer en fonction de celui qui l'a cocher ou l'a completer.
+et cahque utilisateur peut ajouter ou suprimer des tache dans la liste .
+chaque tache se transforme en statistiqe et aficher en chart.js sur une page stat pour suivre chaque tache de chacun (style trading) en fonction de jours et de nombre de tache ou de son importance
+user  1:tojo (couler de diagrame rouge )
+user2/MENDRIKA COULEUR DE DIAGRAME BLEU CLAIRE 
+le syle de graphique serait de style trading en fonction de nombre de tache de l'importance et de temps(jours)
+pas de page conexion ou insciption juste metre son pseudo 
+avec une backend node mongodb
+un compte rendu du projet genre le nombre de tache accomplie un compte rendu hebdo et tout
+met bien le style competition entre les 2 user sur les tache que il on acomplie 
+design : style grid:
+ 1 er colonne tache 30%
+2 eme colonne statistique (chart.js)70 %
+footer le nom du user connecter
+met le paquet sur l'animation le style genre moderne et tout 
+met un mode night(bleu neon, noir mat, des couleur assez brillant qui va avec) et white (couleur blanc'bleu ciel et un de marron)
